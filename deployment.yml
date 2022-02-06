@@ -10,6 +10,8 @@ spec:
       app: uptime
   template:
     metadata:
+      annotations:
+        linkerd.io/inject: enabled
       labels:
         app: uptime
     spec:
